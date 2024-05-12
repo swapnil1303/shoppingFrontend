@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/***user table***/
+.userTable{
+    @apply bg-white
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+
+.userTable td{
+    @apply border text-base text-center
+}
+
+/**scrollbar hidden****/
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+/* Footer */
+footer{
+    background-color: #ebf2fa;
+    padding: 80px var(--padding-inline-section) 80px;
+    justify-content: space-around;
+}
+
+.footer-section{
+    /* width: 50%; */
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* min-height: 300px; */
+    gap: 10px;
+}
+
+.link-column a{
+    color: #586d7f;
+}
+
+/* Sub Footer */
+.subfooter{
+    background-color: #b9cde4;
+    padding: 20px 60px 20px;
+    font-size: 0.9rem;
+}
+
+.subfooter-container{
+    justify-content: space-evenly;
+}
+
+.subfooter-options{
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.social-media{
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
