@@ -1,4 +1,4 @@
-const backendDomin = "https://shoppingbackend-f3lt.onrender.com";
+const backendDomin = "https://shoppingbackend-y378.onrender.com";
 
 const SummaryApi = {
   signUP: {
